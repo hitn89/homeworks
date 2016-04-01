@@ -11,6 +11,7 @@ public class zp {
 		System.out.print("За вычетом налогов остается: ");
 		System.out.print(naruki);
 		System.out.print(" руб");
+		
 	}
 	
 }
