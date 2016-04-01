@@ -8,9 +8,7 @@ public class zp {
 		double nalog = 0.87;
 		double naruki = zp * nalog;
 	
-		System.out.print("За вычетом налогов остается: ");
 		System.out.print(naruki);
-		System.out.print(" руб");
 		
 	}
 	
