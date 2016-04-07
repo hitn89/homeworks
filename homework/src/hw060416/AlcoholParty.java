@@ -17,13 +17,13 @@ public class AlcoholParty {
 		int x = Integer.parseInt(args[0]);
 
 		if (x == 2) {
-			System.out.println("Много!!  a lot of");
+			System.out.println("РјРЅРѕРіРѕ!!  a lot of");
 		} 
 		if (x == 5) {
-			System.out.println("Мало!!!  few");
+			System.out.println("РјР°Р»Рѕ!!!  few");
 		} 
 		if (x == 1) {
-			System.out.println("В самый раз.  Just right.");
+			System.out.println("пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.  Just right.");
 		} 
 		if (x != 2 && x != 5 && x != 1) {
 			System.out.println("Fatal ERROR!");
