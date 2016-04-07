@@ -23,7 +23,7 @@ public class AlcoholParty {
 			System.out.println("мало!!!  few");
 		} 
 		if (x == 1) {
-			System.out.println("��� ��������������� ���������.  Just right.");
+			System.out.println("В самый раз.  Just right.");
 		} 
 		if (x != 2 && x != 5 && x != 1) {
 			System.out.println("Fatal ERROR!");
