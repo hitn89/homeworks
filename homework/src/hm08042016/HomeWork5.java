@@ -16,12 +16,18 @@ public class HomeWork5 {
 
 		int number = Integer.parseInt(args[0]);
 
-		for (int i = 0; number != 0; i++) {
-			if (number % 2 == 0) {
-				System.out.println("0");
-			} else {
-				System.out.println("1");
-			}
+		// for (int i = 0; number != 0; i++) {
+		// if (number % 2 == 0) {
+		// System.out.println("0");
+		// } else {
+		// System.out.println("1");
+		// }
+		// number = number >> 1;
+		// }
+
+		while (number != 0) {
+			int result = (number % 2 == 0) ? (result = 0) : (result = 1);
+			System.out.println(result);
 			number = number >> 1;
 		}
 
