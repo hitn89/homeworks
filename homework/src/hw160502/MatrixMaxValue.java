@@ -1,24 +1,35 @@
 package hw160502;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class MatrixMaxValue {
 
 	public static void main(String[] args) {
 
-		int[][] a = { { 4, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 } };
+		int rows = 4;
+		int cols = 5;
+		int[][] a = new int[rows][cols];
 
-		for (int i = 0; i < a.length; i++) {
-			Arrays.sort(a[i]);
-			System.out.print(Arrays.toString(a[i]));
-			for (int j = 0; j < a[i].length; j++) {
-				int suf = a[i].length;
-				System.out.println("--" + a[suf]);
+		Random random = new Random();
+
+		for (int i = 0; i < rows; i++) {
+			for (int j = 0; j < cols; j++) {
+				a[i][j] = random.nextInt(100);
 			}
-			System.out.println(i);
-			// System.out.println(Arrays.toString(max));
 		}
 
+		for (int i = 0; i < a.length; i++) {
+			int srav = 0;
+			System.out.print(Arrays.toString(a[i]));
+			for (int j = 0; j < a[i].length; j++) {
+				if (a[i][j] > srav) {
+					srav = a[i][j];
+				}
+			}
+			System.out.println(" Максимальное значение - " + srav);
+
+		}
 	}
 
 }
