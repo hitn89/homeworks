@@ -1,6 +1,6 @@
 package hw160427;
 
-public class stringX {
+public class StringX {
 
 	public static void main(String[] args) {
 
