@@ -4,7 +4,7 @@ public class Fix23 {
 
 	public static void main(String[] args) {
 
-		int[] nums = { 3, 2, 1 };
+		int[] nums = { 1, 2, 3 };
 		int[] result = new int[3];
 
 		for (int i = 0; i < nums.length; i++) {
